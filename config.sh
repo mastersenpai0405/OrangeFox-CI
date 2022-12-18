@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Device
-export DT_LINK="https://github.com/mastersenpai0405/recovery_device_infinix_X683"
+export DT_LINK="https://github.com/mastersenpai0405/fox_device_xiaomi_chopin -b test"
 
-export DEVICE="X683"
-export OEM="infinix"
-export TARGET="recoveryimage"
+export DEVICE="chopin"
+export OEM="xiaomi"
+export TARGET="bootimage"
 
-export OUTPUT="recovery.img"
+export OUTPUT="boot.img"
 
 # Kernel Source
 # Uncomment the next line if you want to clone a kernel source.
